@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio/',
+  base: '/portfolio/',   // ★ 반드시 슬래시 앞뒤로 포함!
 })
