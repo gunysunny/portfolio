@@ -74,7 +74,7 @@ const projects = [
                 <div
                     key={proj.title}
                     className={
-                            "flex flex-col md:flex-row items-start gap-10 md:gap-16 bg-white rounded-2xl shadow-lg p-8"
+                            "flex flex-col md:flex-row md:items-center gap-10 md:gap-16 bg-white rounded-2xl shadow-lg p-8"
                             + (i !== projects.length - 1 ? " mb-12" : "") // 마지막 박스에는 마진 안줌
                     }
                 >
