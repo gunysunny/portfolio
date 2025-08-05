@@ -79,9 +79,9 @@ const projects = [
                         >
                             {/* 깃허브 아이콘은 react-icons/fi나 svg, 아무거나 써도 OK */}
                             <svg width="28" height="28" fill="currentColor" className="text-[#222262]">
-                            <use href="#github" />
+                                <use href="#github" />
                             </svg>
-                            Github 
+                            Github  >
                         </a>
                         <div className="border-2 rounded-xl overflow-hidden shadow-lg w-full h-[230px] flex items-center justify-center bg-gray-50">
                             <img
