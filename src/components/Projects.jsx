@@ -81,7 +81,7 @@ const projects = [
                             <svg width="28" height="28" fill="currentColor" className="text-[#222262]">
                                 <use href="#github" />
                             </svg>
-                            Github  >
+                            Github  바로가기 >
                         </a>
                         <div className="border-2 rounded-xl overflow-hidden shadow-lg w-full h-[230px] flex items-center justify-center bg-gray-50">
                             <img
