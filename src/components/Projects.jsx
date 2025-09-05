@@ -2,8 +2,24 @@ import starbucksImg from "../assets/starbucks.png";
 import appleImg from "../assets/apple.png";
 import movieImg from "../assets/movie.png";
 import instaImg from "../assets/insta.png";
+import lol99Img from "../assets/lol99.png";
+
 
 const projects = [
+        {
+            title: "리그오브레전드 전적 검색 및 실시간 구인시스템",
+            date: "25-08-01 ~ 25-08-26",
+            type: "팀 프로젝트",
+            github: "https://github.com/gunysunny/FE_lol99", // 실제 깃허브 주소로 교체
+            img: lol99Img,
+            desc: [
+                "Riot Open API를 활용하여 LoL 전적 검색 시스템 구현",
+                "순수 WebSocket(ws) 기반으로 실시간 채팅방 및 구인 기능 개발",
+                "소환사 전적 조회, 채팅방 생성·참여, 포지션 기반 팀원 모집 등 핵심 기능 직접 구현",
+                "프론트엔드(React, Tailwind)와 백엔드(FastAPI)까지 4인 팀 프로젝트로 설계·개발",
+            ],
+            stack: ["react", "tailwind", "Websocket"]
+        },
         {
             title: "스타벅스 홈페이지",
             date: "약 3개월",
